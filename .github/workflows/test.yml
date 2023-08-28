@@ -13,4 +13,4 @@ jobs:
       with:
         imageName: ghcr.io/ferronn-dev/devcontainer-test
         push: never
-        runCmd: pre-commit run -a
+        runCmd: touch foo

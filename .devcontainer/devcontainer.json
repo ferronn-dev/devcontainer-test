@@ -4,6 +4,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"name": "ferronn-dev/devcontainer-test",
-	"postCreateCommand": "pre-commit install --install-hooks",
 	"remoteUser": "vscode"
 }
