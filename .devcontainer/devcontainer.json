@@ -3,5 +3,6 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-	"name": "ferronn-dev/devcontainer-test"
+	"name": "ferronn-dev/devcontainer-test",
+	"remoteUser": "vscode"
 }
