@@ -1,5 +1,6 @@
 {
 	"name": "ferronn-dev/devcontainer-test",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"postCreateCommand": "bash -c 'echo wat > zzz.txt'",
 	"remoteUser": "vscode"
 }
