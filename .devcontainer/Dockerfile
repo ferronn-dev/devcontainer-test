@@ -1,1 +1,1 @@
-FROM alpine
+FROM debian:bullseye-slim
