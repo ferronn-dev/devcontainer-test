@@ -13,4 +13,4 @@ jobs:
       with:
         imageName: ghcr.io/ferronn-dev/devcontainer-test
         push: never
-        runCmd: echo wat > wat.txt
+        runCmd: pre-commit run -a

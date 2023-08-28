@@ -1,6 +1,9 @@
 {
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
 	"name": "ferronn-dev/devcontainer-test",
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
-	"postCreateCommand": "bash -c 'echo wat > zzz.txt'",
+	"postCreateCommand": "pre-commit install --install-hooks",
 	"remoteUser": "vscode"
 }
