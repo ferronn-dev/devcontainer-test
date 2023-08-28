@@ -12,4 +12,5 @@ jobs:
     - uses: devcontainers/ci@v0.2
       with:
         imageName: ghcr.io/ferronn-dev/devcontainer-test
+        push: never
         runCmd: echo wat > wat.txt

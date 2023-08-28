@@ -1,4 +1,5 @@
 {
 	"name": "ferronn-dev/devcontainer-test",
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye"
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"remoteUser": "vscode"
 }
